@@ -1,0 +1,47 @@
+:root {
+    --light-color: #fff;
+    --page-contianer: 1200px;
+    --primary-color: #105378;
+    --secondary-color: #333333;
+    --button-color: #105378;
+    --header-bg-color: #fff;
+    --footer-bg-color: #263647;
+    --theme-bg-color: #060609;
+    --footer-text-color: #fff;
+    --text-color: #000912;
+    --site-logo-brand: #105378;
+    --site-logo-bg: #c3dafe;
+    --theme-font-family: 'Poppins', sans-serif;
+    --site-bg-image: url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg');
+}
+
+.light:root {
+    --text-color: #000912;
+    --header-bg-color: #f5f5f5;
+    --footer-bg-color: #f5f5f5;
+    --theme-bg-color: #ccc;
+    --footer-text-color: #000912;
+}
+
+.dark:root {
+    --text-color: #fff;
+    --footer-bg-color: #000912;
+    --header-bg-color: #000912;
+    --site-logo-brand: #000912;
+    --footer-text-color: #fff;
+    --site-bg-image: url('https://images.pexels.com/photos/207353/pexels-photo-207353.jpeg');
+}
+
+.orange:root{
+    --primary-color: #ff8b45;
+    --site-logo-brand: #ff8b45;
+    --site-logo-bg: #fceee3;
+    --site-bg-image: url('https://images.pexels.com/photos/1002778/pexels-photo-1002778.jpeg');
+}
+
+.green:root{
+    --primary-color: #1da958;
+    --site-logo-brand: #1da958;
+    --site-logo-bg: #d6efe1;
+    --site-bg-image: url('https://images.pexels.com/photos/2453551/pexels-photo-2453551.jpeg');
+}
